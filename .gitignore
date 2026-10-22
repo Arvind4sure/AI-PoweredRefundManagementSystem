@@ -1,0 +1,28 @@
+# Secrets / env — never commit
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+dist/
+build/
+
+# Demo/runtime data
+data/
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Tools / OS
+.DS_Store
+Thumbs.db
